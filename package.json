@@ -1,5 +1,5 @@
 {
-  "homepage": "http://SkyRideRq.github.io/myapp",
+  "homepage": "http://SkyRideRq.github.io/workshop-app",
   "name": "my-workshop-app",
   "version": "0.1.0",
   "private": true,
@@ -12,9 +12,10 @@
     "react-table": "^6.8.6"
   },
   "scripts": {
+    
+    "start": "react-scripts start",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
